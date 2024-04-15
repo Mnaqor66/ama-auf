@@ -1,0 +1,25 @@
+const Telegram = () => {
+    return (
+        <p>
+            <span className="medium">Auf</span><br /><br />
+            18 Desember 2023 <br /><br />
+            Aplikasi telegram, yaa mungkin terdengar hanya sebatas aplikasi biasa, namun aplikasi ini memiliki kenangan yang paling indah bagiku, dari aplikasi ini aku menemukan cinta sejatiku setelah berkali-kali aku gagal dalam percintaan, kala siang itu dengan mata yang agak sipit karena bangun tidur kulihat notifikasi handphoneku, aku bergumam dalam hati "Siapa ini yang mengirim pesan kepadaku?", huft..., sulit rasanya percaya ada seorang perempuan yang mengirimkan pesan kepadaku terlebih dahulu, aku pun membuka pesan itu dan ternyata hanya sebuah stiker animasi yang sedang melambaikan tangan, "Hah, paling gak sampai pacaran, paling cuma chattan sehari atau dua hari terus asing lagi" hatiku berucap lirih, kubalas lah pesannya dengan kalimat yang seadanya sebab kuyakin pasti akan berpisah lagi. <br /><br />
+            Ahhh tidak, setelah aku coba membalas dengan kalimat yang seadanya saja aku tidak bisa menutupi tampang asliku, kami mulai membicarakan tentang banyak hal melalui chat ini. Hingga malam tiba, entah apa yang terbesit di fikiranku, kala aku ingin pergi keluar aku mengirimkan nomor whatsapp ku kepadanya, wajar saja aku adalah seorang yang terbiasa menggunakan Wi-Fi, sehingga aku jarang sekali memiliki kuota internet, paling-paling aku hanya memiliki kuota whatsapp. Dia nampak menunjukkan kegembiraannya saat aku mengatakan aku hanya memiliki kuota whatsapp, dia berucap "Apakah ini artinya kita harus move ke Whatsapp, Waw, Kakak sangat idaman", akupun tersenyum tipis bergumam dalam hati "Apakah dia menyukaiku?, ataukah dia hanya penasaran?, entahlah". <br /><br />
+            Akupun teringat dengan seorang perempuan yang mendekatiku hanya karena penasaran, namanya Arby, seorang pengajar PAUD di Bekasi, aku mengenalnya hanya melalui pekerjaanku dulu sebagai penerjemah seorang syaikh di kelas Tahsin Al-Qur'an, dia memulai percakapan denganku tepat sehari setelah Erna meninggalkan ku pergi dengan pacarnya, saat itu aku merasa sangat patah hati sampai-sampai aku mengalami insomnia, Arby pun mengirimkan tips-tips mengatasi insomnia melalui whatsapp, hari terus berjalan kurasa aku mulai tertarik pada Arby, kuberanikan menanyakan kenapa dia memulai percakapan di hari itu, "Arby, kenapa sih kamu mau chat aku duluan?", "Aku tuh aslinya kasian aja sama kamu gara-gara insomnia, kan aku juga pernah gitu dulu, sebetulnya ada satu lagi sih alasan kenapa aku mau chat duluan, aku tuh penasaran aja sama kamu" jawab Arby, "humm, mungkin aku saja yang merasa kegeer-an kalo dia suka sama aku" gumamku dalam hati, pernah juga aku ajak dia untuk berpacaran, tapi ribuan alasan penolakan selalu saja dilontarkan, hingga akhirnya rasa cintaku digantung di langit-langit tanpa satupun kejelasan. <br /><br />
+            ===== <br /><br />
+            Tak terasa perjalananku menuju martapura hampir sampai, aku pun mampir dulu di warung makan bersama keluargaku, aku lihat handphoneku ada notif darinya, waw ternyata dia mengajakku pergi nonton teater besok malam, "Kak, coba lihat ini" ucapnya, "Kamu mau nonton itu ya?" ucapku sok peka padanya, "entahlah kak, aku gak ada teman kesana" gumamnya terasa pasrah, akupun spontan mengatakan "ayo nontonnya sama aku aja", "LETS GO KAK!" dia nampak sangat semangat membalas pesanku, sungguh aku tak habis pikir, bisa-bisanya aku mengajak seorang perempuan yang baru saja aku kenal kurang dari satu hari untuk jalan. <br /><br />
+            Perjalananku pun usai, aku telah sampai di kota Martapura kota kelahiranku 2002 silam, "Assalamualaikum Nek!" ucapku ketika memasuki rumah nenekku, "Waalaikumussalam, lama sekali nenek udah tidak liat kamu, oh iya malam ini kamu tidur di rumah Om aja ya, kamarnya kan di pakai sama tante kamu" Ucap nenekku, "Baiklah nek", ucapku. Akupun beranjak pergi ke rumah Om ku, kudapati kakak dan adikku sudah disana "Eh kamu tidur disini juga ya, wahh pas aja tuh sama-sama telponan sama cewek, tuh si Abay juga telponan sama cewek" ucap kakakku, "idih, telponan gimana coba, percuma telponan kalo statusnya di gantung juga, paling juga telponan dua-duanya diam" ucapku. <br /><br />
+            Malam sudah larut akupun memejamkan mataku, mengantarkan tubuh menuju mimpi, yaa walau mimpi tak selamanya indah seperti kisah hidupku, bahkan aku pun tidak tahu apakah pertemuanku dengan sesosok gadis di Telegram itu akan berujung indah, namun entah mengapa aku selalu memikirkan bagaimana aku esok bertemu dengannya. <br /><br />
+        </p>
+    )
+}
+
+const QuoteTelegram = () => {
+    return (
+        <p>
+            "Apakah dia menyukaiku?, ataukah dia hanya penasaran?, entahlah"
+        </p>
+    )
+}
+
+export { Telegram, QuoteTelegram }

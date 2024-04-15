@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Intro Section Start */
+
+.introBG {
+    height: 100vh;
+    background: url(../assets/images/intro.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.introText {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.introText div {
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.6rem solid #B2733D;
+    border-bottom: 0.6rem solid #B2733D;
+    padding: 2rem 0 2rem 0;
+}
+
+.introText div span {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.7rem;
+}
+
+.introText div h1 {
+    font-size: 4rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    letter-spacing: 1rem;
+}
+
+/* Intro Section End */
+
+/* ================================================== */
+
+/* Intro Story Start */
+
+.IntroStory {
+    height: 100vh;
+    background: #544A47;
+}
+
+.IntroStory-welcome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.IntroStory-welcome h1 {
+    padding: 1.5rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    border-top: 0.6rem solid #B2733D;
+    border-bottom: 0.6rem solid #B2733D;
+    font-family: "Crimson Text", serif;
+    font-size: 4.5rem;
+}
+
+.IntroStory-welcome div {
+    width: 40%;
+    font-family: "Crimson Text", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.IntroStory-welcome span {
+    margin-top: 1.5rem;
+    font-family: "Crimson Text", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.4rem;
+    font-style: italic;
+}
+
+.IntroStory-welcome button {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+    letter-spacing: 0.4rem;
+    padding: 0.3rem 1.5rem;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+}
+
+.IntroStory-welcome button:hover {
+    background: #B2733D;
+}
+
+/* Intro Section End */
+
+/* ================================================== */
+
+/* Intro Gallery Start */
+
+.IntroGallery {
+    height: 100vh;
+}
+
+.des23 {
+    height: 50vh;
+    background: url(../assets/images/intro.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.feb24 {
+    height: 50vh;
+    background: url(../assets/images/februari24.JPG);
+    background-size: cover;
+    background-position: calc(100% - 0%) calc(0% - -30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mar24 {
+    height: 50vh;
+    background: url(../assets/images/maret24.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.comingSoon {
+    height: 50vh;
+    background: url(../assets/images/coomingsoon.JPG);
+    background-size: cover;
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.des23 div,
+.feb24 div,
+.mar24 div,
+.comingSoon div {
+    width: 60%;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5rem solid #B2733D;
+    border-bottom: 0.5rem solid #B2733D;
+}
+
+.des23 p,
+.feb24 p,
+.mar24 p,
+.comingSoon p {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.des23 h1,
+.feb24 h1,
+.mar24 h1,
+.comingSoon h1 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 800;
+}
+
+/* Intro Gallery End */
+
+/* ================================================== */
+
+/* About Start */
+
+.blank {
+    display: none;
+}
+
+.About {
+    background-color: #373130;
+}
+
+.AmaAbout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.AmaFoto {
+    height: 55vh;
+    width: 80%;
+    background: url(../assets/images/cegil.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.AmaIntro {
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: "Crimson Text", serif;
+    padding: 0 2rem;
+}
+
+.AufAbout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.AufFoto {
+    height: 55vh;
+    width: 80%;
+    background: url(../assets/images/keren.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.AufIntro {
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: "Crimson Text", serif;
+    padding: 0 2rem;
+}
+
+/* About End */
+
+/* ================================================== */
+
+/* Footer Start */
+
+.Footer {
+    height: 15vh;
+    background: #282727;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+/* Footer End */
+
+/* ================================================== */
+
+/* Not Found Start */
+
+.notFound {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFound div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFound svg {
+    width: 25rem;
+}
+
+.notFound h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.notFound p {
+    font-size: 1.5rem;
+}
+
+.notFound button {
+    background: #000;
+    color: #fff;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 0.5rem 6rem;
+    border-radius: 10px;
+}
+
+/* Not Found End */
+
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+
+
+/* ================================================== */
+/* ==================Mobile Styling================== */
+/* ================================================== */
+
+/* Media Query Area */
+
+@media only screen and (max-width: 600px) {
+    /* Intro Section Start */
+
+    .introText div {
+        width: 80%;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+        padding: 2rem 0;
+    }
+
+    .introText div span {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+    }
+
+    .introText div h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+    }
+
+    /* Intro Setion End */
+
+    /* ================================================== */
+
+    /* Intro Story Start */
+
+    .IntroStory-welcome h1 {
+        padding: 1rem;
+        font-weight: 600;
+        letter-spacing: 1rem;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+        font-size: 2rem;
+    }
+
+    .IntroStory-welcome div {
+        width: 90%;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .IntroStory-welcome span {
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    .IntroStory-welcome button {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        padding: 0.3rem 1rem;
+    }
+
+    /* Intro Story End */
+
+    /* ================================================== */
+
+    /* Intro Gallery Start */
+
+    .des23 div,
+    .feb24 div,
+    .mar24 div,
+    .comingSoon div {
+        width: 75%;
+        height: 30%;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+    }
+
+    .des23 p,
+    .feb24 p,
+    .mar24 p,
+    .comingSoon p {
+        font-size: 1rem;
+    }
+
+    .des23 h1,
+    .feb24 h1,
+    .mar24 h1,
+    .comingSoon h1 {
+        font-size: 2rem;
+    }
+
+    /* Intro Gallery End */
+
+    /* ================================================== */
+
+    /* About Start */
+
+    .blank {
+        display: flex;
+        height: 100vh;
+        position: relative;
+        z-index: -999;
+    }
+
+    .About {
+        height: 300vh;
+    }
+
+    .AmaAbout {
+        padding-bottom: 2rem;
+    }
+
+    .AmaFoto {
+        height: 55vh;
+        width: 80%;
+    }
+
+    .AmaIntro {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .AufAbout {
+        padding-bottom: 2rem;
+    }
+
+    .AufFoto {
+        height: 55vh;
+        width: 80%;
+    }
+
+    .AufIntro {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Crimson Text", serif;
+        padding: 0 2rem;
+    }
+
+    .sosmed-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* About End */
+
+    /* ================================================== */
+
+    /* Footer Start */
+
+    .Footer {
+        height: 7vh;
+        font-size: 0.7rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+    }
+
+    /* Footer End */
+}
+
+/* ================================================== */
+/* ==================Laptop Styling================== */
+/* ================================================== */
+
+@media only screen and (min-width:600px) and (max-width:1400px) {
+
+    /* Intro Start */
+
+    .introText div {
+        width: 70%;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+        padding: 2rem 0;
+    }
+
+    .introText div span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+    }
+
+    .introText div h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 0.5rem;
+    }
+
+    /* Intro End */
+
+    /* ================================================== */
+    
+    /* Intro Story Start */
+
+    .IntroStory-welcome h1 {
+        padding: 1rem;
+        font-weight: 600;
+        letter-spacing: 1rem;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+        font-size: 3rem;
+    }
+
+    .IntroStory-welcome div {
+        width: 70%;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .IntroStory-welcome span {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        text-align: center;
+    }
+
+    .IntroStory-welcome button {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        padding: 0.3rem 1rem;
+    }
+
+    /* Intro Story End */
+
+    /* ================================================== */
+
+    /* Intro Gallery Start */
+
+    .des23 div,
+    .feb24 div,
+    .mar24 div,
+    .comingSoon div {
+        width: 75%;
+        height: 50%;
+        border-top: 0.4rem solid #B2733D;
+        border-bottom: 0.4rem solid #B2733D;
+    }
+
+    .des23 p,
+    .feb24 p,
+    .mar24 p,
+    .comingSoon p {
+        font-size: 1.5rem;
+    }
+
+    .des23 h1,
+    .feb24 h1,
+    .mar24 h1,
+    .comingSoon h1 {
+        font-size: 3rem;
+    }
+
+    /* Intro Gallery End */
+
+    /* ================================================== */
+
+    /* About Start */
+
+    .About {
+        height: 100vh;
+    }
+
+    .AmaAbout {
+        padding-bottom: 2rem;
+    }
+
+    .AmaFoto {
+        height: 55vh;
+        width: 80%;
+    }
+
+    .AmaIntro {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .AufAbout {
+        padding-bottom: 2rem;
+    }
+
+    .AufFoto {
+        height: 55vh;
+        width: 80%;
+    }
+
+    .AufIntro {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Crimson Text", serif;
+        padding: 0 2rem;
+    }
+
+    .sosmed-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* About End */
+
+    /* ================================================== */
+
+    /* Footer Start */
+
+    .Footer {
+        height: 15vh;
+        font-size: 0.8rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+    }
+
+    /* Footer End */
+}

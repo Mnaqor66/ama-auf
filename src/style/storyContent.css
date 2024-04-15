@@ -1,0 +1,31 @@
+.storyBody{
+    background-color: #373130;
+}
+
+.medium {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.quoteBox {
+    height: 13em;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: -3rem;
+    background-color: #544A47;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Crimson Text";
+}
+
+.storyBox {
+    color: white;
+    width: 60%;
+    margin: 5rem auto;
+    text-align: justify;
+    font-family: "Inter";
+}
